@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(204, 247, 255, 0.7);
+}
+
+.base {
+    padding: 5px 300px 0px 300px;
+}
+
+.shipping_billing {
+    float: none;
+}
+
+span {
+    color: red;
+}
+
+table, tr, td {
+    border: 0px solid black;
+}
+
+td {
+    padding-top: 0px;
+}
