@@ -1,13 +1,19 @@
 body {
-    background-color: rgba(204, 247, 255, 0.7);
+    background-color: rgb(235,246,252);
 }
 
 .base {
     padding: 5px 300px 0px 300px;
+    color:rgb(36,69,123);
 }
 
 .shipping_billing {
     float: none;
+}
+
+.products_heading{
+    margin: 0px;
+    padding: 0px;
 }
 
 span {
@@ -18,6 +24,22 @@ table, tr, td {
     border: 0px solid black;
 }
 
-td {
-    padding-top: 0px;
+.input_deco {
+    border: 1px solid rgb(176,152,104);
+    border-radius: 3px;
+    height: 30px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.terms{
+    border: 1px solid rgb(176,152,104);
+}
+
+.button{
+    background-color: rgb(36,69,123);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: none;
 }

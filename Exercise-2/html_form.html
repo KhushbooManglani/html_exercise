@@ -23,36 +23,27 @@
                     <tr>
                         <td>
                             <div class="products_heading">
-                                <strong>Preferred <br /> Product<span>*</span></strong>
+                                Preferred <br /> Product<span>*</span>
                             </div>
                         </td>
                         <td>
-                            <input type="radio" id="pro1" value="product_1" />
+                            <input type="radio" id="pro_1" value="product_1" name="products" />
                             <label for="pro_1"># Product 1</label>
                             <br /><br />
-                            <input type="radio" id="pro2" value="product_2" />
+                            <input type="radio" id="pro_2" value="product_2" name="products" />
                             <label for="pro_2"># Product 2</label>
                             <br /><br />
-                            <input type="radio" id="pro3" value="product_3" />
+                            <input type="radio" id="pro_3" value="product_3" name="products" />
                             <label for="pro_3"># Product 3</label>
                             <br /><br />
-                            <input type="radio" id="pro4" value="product_4" />
+                            <input type="radio" id="pro_4" value="product_4" name="products" />
                             <label for="pro_4"># Product 4</label>
                             <br /><br />
-                            <input type="radio" id="pro5" value="product_5" />
+                            <input type="radio" id="pro_5" value="product_5" name="products" />
                             <label for="pro_5"># Product 5</label>
                             <br /><br />
-                            <input type="radio" id="pro6" value="product_6">
+                            <input type="radio" id="pro_6" value="product_6" name="products" />
                             <label for="pro_6"># Product 6</label>
-                            
-                            <input type="radio" id="html" name="fav_language" value="HTML">
-                            <label for="html">HTML</label><br>
-                            
-                            <input type="radio" id="css" name="fav_language" value="CSS">
-                            <label for="css">CSS Cascading StyleSheet</label><br>
-                            
-                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                            <label for="javascript">JavaScript</label>
                         </td>
                     </tr>
                     <br/>
@@ -70,7 +61,7 @@
                             <label for="quantity">Quantity<span>*</span></label>
                         </td>
                         <td>
-                            <input type="text" name="quantity">
+                            <input class="input_deco" type="text" name="quantity">
                         </td>
                     </tr>
                         
@@ -79,7 +70,7 @@
                             <label for="delivery_date">Delivery Date<span>*</span></label>
                         </td>
                         <td>
-                            <input type="date" name="delivery_date">
+                            <input class="input_deco" type="date" name="delivery_date">
                         </td>
                     </tr>
                     
@@ -88,14 +79,14 @@
                             <label for="delivery_address">Delivery Address<span>*</span></label>
                         </td>
                         <td>
-                            <input type="text" placeholder="Street Address">
-                            <input type="text" placeholder="Street Address Line 2">
+                            <input class="input_deco" type="text" placeholder="Street Address">
+                            <input class="input_deco" type="text" placeholder="Street Address Line 2">
                             <br/>
-                            <input type="text" placeholder="City">
-                            <input type="text" placeholder="Region">
+                            <input class="input_deco" type="text" placeholder="City">
+                            <input class="input_deco" type="text" placeholder="Region">
                             <br/>
-                            <input type="text" placeholder="Postal / Zip Code">
-                            <input type="text" placeholder="Country">
+                            <input class="input_deco" type="text" placeholder="Postal / Zip Code">
+                            <input class="input_deco" type="text" placeholder="Country">
                         </td>
                     </tr>
                     
@@ -104,8 +95,8 @@
                             <label for="name">Name<span>*</span></label>
                         </td>
                         <td>
-                            <input type="text" placeholder="First Name" name="first_name">
-                            <input type="text" placeholder="Last Name" name="last_name">
+                            <input class="input_deco" type="text" placeholder="First Name" name="first_name">
+                            <input class="input_deco" type="text" placeholder="Last Name" name="last_name">
                         </td>
                     </tr>
                         
@@ -114,7 +105,7 @@
                             <label for="phone">Phone<span>*</span></label>
                         </td>
                         <td>
-                            <input type="text" name="phone" placeholder="### ### ####">
+                            <input class="input_deco" type="text" name="phone" placeholder="### ### ####">
                         </td>
                     </tr>
                         
@@ -123,7 +114,31 @@
                             <label for="email">Email<span>*</span></label>
                         </td>
                         <td>
-                            <input type="text" name="email">
+                            <input class="input_deco" type="text" name="email">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <br>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="terms" id="terms" class="terms"></td>
+                                    <td><label for="terms">I agree to terms of services</label></td>
+                                </tr>
+                            </table>
+                            
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <br>
+                            <input class="button" type="button" value="Order Now">
+                            <br><br>
                         </td>
                     </tr>
                 </table>
